@@ -1,0 +1,12 @@
+﻿Build started 2/29/2016 11:26:07 PM.
+     1>Project "C:\Users\Ujay\Documents\Visual Studio 2012\C++\LAB5Extra\LAB5Extra\LAB5Extra.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\ujay\documents\visual studio 2012\c++\lab5extra\lab5extra\source.cpp(42): error C3861: 'rand_s': identifier not found
+     1>c:\users\ujay\documents\visual studio 2012\c++\lab5extra\lab5extra\source.cpp(60): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Done Building Project "C:\Users\Ujay\Documents\Visual Studio 2012\C++\LAB5Extra\LAB5Extra\LAB5Extra.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.44

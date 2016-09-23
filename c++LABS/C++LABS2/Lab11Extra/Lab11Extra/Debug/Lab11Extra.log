@@ -1,0 +1,25 @@
+﻿Build started 12/12/2013 9:51:35 AM.
+     1>Project "C:\Users\Ujay\Documents\Visual Studio 2012\C++\Lab11Extra\Lab11Extra\Lab11Extra.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\ujay\documents\visual studio 2012\c++\lab11extra\lab11extra\source.cpp(13): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\ujay\documents\visual studio 2012\c++\lab11extra\lab11extra\source.cpp(114): warning C4930: 'Athlete r(void)': prototyped function not called (was a variable definition intended?)
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\algorithm(24): error C2664: 'void (Athlete &)' : cannot convert argument 1 from 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' to 'Athlete &'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\algorithm(33) : see reference to function template instantiation 'void std::_For_each<std::basic_string<char,std::char_traits<char>,std::allocator<char>>*,void(__cdecl *)(Athlete &)>(_InIt,_InIt,_Fn1 &)' being compiled
+                 with
+                 [
+                     _InIt=std::basic_string<char,std::char_traits<char>,std::allocator<char>> *
+         ,            _Fn1=void (__cdecl *)(Athlete &)
+                 ]
+                 c:\users\ujay\documents\visual studio 2012\c++\lab11extra\lab11extra\source.cpp(65) : see reference to function template instantiation '_Fn1 std::for_each<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>,void(__cdecl *)(Athlete &)>(_InIt,_InIt,_Fn1)' being compiled
+                 with
+                 [
+                     _Fn1=void (__cdecl *)(Athlete &)
+         ,            _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>
+                 ]
+     1>Done Building Project "C:\Users\Ujay\Documents\Visual Studio 2012\C++\Lab11Extra\Lab11Extra\Lab11Extra.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.94

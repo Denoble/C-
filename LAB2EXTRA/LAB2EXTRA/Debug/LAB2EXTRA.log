@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\ujay\documents\visual studio 2012\c++\lab2extra\lab2extra\source.cpp(37): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\ujay\documents\visual studio 2012\c++\lab2extra\lab2extra\source.cpp(55): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  LAB2EXTRA.vcxproj -> C:\Users\Ujay\Documents\Visual Studio 2012\C++\LAB2EXTRA\Debug\LAB2EXTRA.exe
